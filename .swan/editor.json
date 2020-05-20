@@ -1,18 +1,27 @@
 {
     "editor": {
-        "curPath": "G:\\vantui-baiapp-master\\example\\app.js",
-        "expands": [],
+        "curPath": "G:\\vantui-baiapp-master\\pages\\index\\index.swan",
+        "expands": [
+            "G:\\vantui-baiapp-master\\pages\\index"
+        ],
         "markdownUploadTimeMap": {},
         "paths": [
             "G:\\vantui-baiapp-master\\baiapp.gif",
-            "G:\\vantui-baiapp-master\\example\\app.js"
+            "G:\\vantui-baiapp-master\\example\\app.js",
+            "G:\\vantui-baiapp-master\\pages\\index\\index.swan"
         ],
         "recentlyFiles": [
+            "G:\\vantui-baiapp-master\\pages\\index\\index.swan",
+            "G:\\vantui-baiapp-master\\pages\\index\\index.json",
+            "G:\\vantui-baiapp-master\\pages\\index\\index.js",
+            "G:\\vantui-baiapp-master\\pages\\index\\index.css",
+            "G:\\vantui-baiapp-master\\app.json",
+            "G:\\vantui-baiapp-master\\app.js",
+            "G:\\vantui-baiapp-master\\package.json",
             "G:\\vantui-baiapp-master\\example\\app.js",
             "G:\\vantui-baiapp-master\\example\\app.css",
             "G:\\vantui-baiapp-master\\babel.config.js",
             "G:\\vantui-baiapp-master\\baiapp.gif",
-            "G:\\vantui-baiapp-master\\app.json",
             "G:\\vantui-baiapp-master\\index\\index.css",
             "G:\\vantui-baiapp-master\\index\\index.swan",
             "G:\\vantui-baiapp-master\\index\\index.json"
