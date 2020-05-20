@@ -1,0 +1,80 @@
+<filter src="../_filter/utils.filter.js" module="utils" />
+
+<!-- {{simple}} -->
+<view class="van-picker custom-class">
+  <view
+    s-if="{{ showToolbar }}"
+    class="van-picker__toolbar van-hairline--top-bottom toolbar-class"
+  >
+    <view
+      class="van-picker__cancel"
+      hover-class="van-picker__cancel--hover"
+      hover-stay-time="70"
+      data-type="cancel"
+      bindtap="emit"
+    >
+      {{ cancelButtonText }}
+    </view>
+    <view s-if="{{ title }}" class="van-picker__title van-ellipsis">{{ title }}</view>
+    <view
+      class="van-picker__confirm"
+      hover-class="van-picker__confirm--hover"
+      hover-stay-time="70"
+      data-type="confirm"
+      bindtap="emit"
+    >
+      {{ confirmButtonText }}
+    </view>
+  </view>
+  <view s-if="{{ loading }}" class="van-picker__loading">
+    <loading color="#1989fa"/>
+  </view>
+  <view
+    class="van-picker__columns"
+    style="height: {{ itemHeight * visibleItemCount }}px"
+    catch:touchmove="noop"
+  >
+    <block s-if="{{ simple }}">
+        <picker-column
+        class="van-picker__column"
+        s-for="{{ [columns] }}"
+        s-key="{{ index }}"
+        data-index="{{ index }}"
+        custom-class="{{ columnClass }}"
+        value-key="{{ valueKey }}"
+        initial-options="{{ item }}"
+        default-index="{{ item.defaultIndex || defaultIndex }}"
+        item-height="{{ itemHeight }}"
+        visible-item-count="{{ visibleItemCount }}"
+        active-class="{{ activeClass }}"
+        bind:change="onChange"
+        />
+
+        
+    </block>
+    <block s-if="{{ !simple}}">
+      
+        <picker-column
+        class="van-picker__column"
+        s-for="{{ columns }}"
+        s-key="{{ index }}"
+        data-index="{{ index }}"
+        custom-class="{{ columnClass }}"
+        value-key="{{ valueKey }}"
+        initial-options="{{ item.values }}"
+        default-index="{{ item.defaultIndex || defaultIndex }}"
+        item-height="{{ itemHeight }}"
+        visible-item-count="{{ visibleItemCount }}"
+        active-class="{{ activeClass }}"
+        bind:change="onChange"
+        />
+    </block>
+
+ 
+    <view
+      class="van-picker__frame van-hairline--top-bottom"
+      style="height: {{ itemHeight }}px"
+    />
+  </view>
+  
+</view>

@@ -1,0 +1,5 @@
+<filter src="../_filter/utils.filter.js" module="utils" />
+
+<view class="custom-class van-collapse {{ utils.judge(border , 'van-hairline--top-bottom' , '' )}}">
+  <slot />
+</view>

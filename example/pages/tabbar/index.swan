@@ -1,0 +1,55 @@
+<demo-block title="基础用法">
+  <van-tabbar
+    active="{{ active }}"
+    custom-class="tabbar"
+    safe-area-inset-bottom="{{ false }}"
+    bind:change="onChange"
+  >
+    <van-tabbar-item icon="home-o" pid="1">标签</van-tabbar-item>
+    <van-tabbar-item icon="search" dot pid="1">标签</van-tabbar-item>
+    <van-tabbar-item icon="friends-o" info="5" pid="1">标签</van-tabbar-item>
+    <van-tabbar-item icon="setting-o" info="20" pid="1">标签</van-tabbar-item>
+  </van-tabbar>
+</demo-block>
+
+<demo-block title="自定义图标">
+  <van-tabbar
+    active="{{ active2 }}"
+    custom-class="tabbar"
+    safe-area-inset-bottom="{{ false }}"
+    bind:change="onChange"
+    wid="2"
+  >
+    <van-tabbar-item info="3" pid="2">
+      <image
+        slot="icon"
+        src="{{ icon.normal }}"
+        mode="aspectFit"
+      />
+      <image
+        slot="icon-active"
+        src="{{ icon.active }}"
+        mode="aspectFit"
+      />
+      自定义
+    </van-tabbar-item>
+    <van-tabbar-item icon="search">标签</van-tabbar-item pid="2">
+    <van-tabbar-item icon="setting-o">标签</van-tabbar-item pid="2">
+  </van-tabbar>
+</demo-block>
+
+<demo-block title="自定义颜色">
+  <van-tabbar
+    active="{{ active }}"
+    custom-class="tabbar"
+    safe-area-inset-bottom="{{ false }}"
+    active-color="#07c160"
+    bind:change="onChange"
+    wid="3"
+  >
+    <van-tabbar-item icon="home-o" pid="3">标签</van-tabbar-item>
+    <van-tabbar-item icon="search" pid="3">标签</van-tabbar-item>
+    <van-tabbar-item icon="friends-o" pid="3">标签</van-tabbar-item>
+    <van-tabbar-item icon="setting-o" pid="3">标签</van-tabbar-item>
+  </van-tabbar>
+</demo-block>

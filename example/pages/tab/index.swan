@@ -1,0 +1,161 @@
+<demo-block title="基础用法">
+  <van-tabs active="{{ 0 }}" bind:change="onChange" wid="1">
+    <van-tab
+      title="{{ '标签' + 1 }}"
+      pid="1">
+      <view class="content">
+        123
+      </view>
+    </van-tab>
+    <van-tab
+      title="{{ '标签' + 2 }}"
+      pid="1">
+      <view class="content">
+        123
+      </view>
+    </van-tab>
+    <van-tab
+      title="{{ '标签' + 3 }}"
+      pid="1">
+      <view class="content">
+        123
+      </view>
+    </van-tab>
+    <van-tab
+      title="{{ '标签' + 4 }}"
+      pid="1">
+      <view class="content">
+        123
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
+
+<demo-block title="自定义标题">
+  <van-tabs active="{{ 1 }}" bind:change="onChange" tab-class="tab-class" tab-active-class="tab-active-class" wid="2">
+    <van-icon
+      slot="nav-right"
+      name="search"
+      custom-class="right-nav"
+      bind:click="onClickNavRight"
+      pid="2"
+    />
+    <van-tab
+      s-for="[1,2,3,4]"
+      title="{{ '标签' + item }}"
+      dot="{{ index === 1 }}"
+      info="{{ index === 2 ? 99 : null }}"
+      pid="2"
+    >
+      <view class="content">
+        {{ '内容' + item }}
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
+
+<demo-block title="横向滚动">
+  <van-tabs wid="3">
+    <van-tab
+      s-for="[1,2,3,4]"
+      s-key="index"
+      title="{{ '标签' + item }}"
+      pid="3"
+    >
+      <view class="content">
+        {{ '内容' + item }}
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
+
+<demo-block title="禁用标签">
+  <van-tabs bind:disabled="onClickDisabled" wid="4">
+    <van-tab
+      s-for="[1,2,3]"
+      s-key="index"
+      disabled="{{ index === 1 }}"
+      title="{{ '标签' + item }}"
+      pid="4"
+    >
+      <view class="content">
+        {{ '内容' + item }}
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
+
+<demo-block title="样式风格">
+  <van-tabs type="card" wid="5">
+    <van-tab
+      s-for="[1,2,3]"
+      s-key="index"
+      title="{{ '标签' + item }}"
+      pid="5"
+    >
+      <view class="content-2">
+        {{ '内容' + item }}
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
+
+<demo-block title="点击事件">
+  <van-tabs bind:click="onClick" wid="6">
+    <van-tab
+      s-for="[1,2]"
+      s-key="index"
+      title="{{ '标签' + item }}"
+      pid="6"
+    >
+      <view class="content">
+        {{ '内容' + item }}
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
+
+<demo-block title="粘性布局">
+  <van-tabs sticky wid="7">
+    <van-tab
+      s-for="[1,2,3,4]"
+      s-key="index"
+      title="{{ '标签' + item }}"
+      pid="7"
+    >
+      <view class="content">
+        {{ '内容' + item }}
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
+
+<demo-block title="切换动画">
+  <van-tabs animated wid="8">
+    <van-tab
+      s-for="[1,2,3,4]"
+      s-key="index"
+      title="{{ '标签' + item }}"
+      pid="8"
+    >
+      <view class="content" style="height: 400px;">
+        {{ '内容' + item }}
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
+
+<demo-block title="滑动切换">
+  <van-tabs swipeable wid="9">
+    <van-tab
+      s-for="[1,2,3,4]"
+      s-key="index"
+      title="{{ '标签' + item }}"
+      pid="9"
+    >
+      <view class="content">
+        {{ '内容' + item }}
+      </view>
+    </van-tab>
+  </van-tabs>
+</demo-block>
