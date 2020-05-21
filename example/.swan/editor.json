@@ -1,10 +1,7 @@
 {
     "editor": {
-        "curPath": "G:\\vantui-baiapp-master\\example\\pages\\radio\\index.json",
-        "expands": [
-            "G:\\vantui-baiapp-master\\example\\components\\demo-block",
-            "G:\\vantui-baiapp-master\\example\\pages"
-        ],
+        "curPath": "G:\\vantui-baiapp-master\\example\\app.json",
+        "expands": [],
         "markdownUploadTimeMap": {},
         "paths": [
             "G:\\vantui-baiapp-master\\example\\dist\\steps\\index.swan",
@@ -14,9 +11,11 @@
             "G:\\vantui-baiapp-master\\example\\pages\\steps\\index.swan",
             "G:\\vantui-baiapp-master\\example\\pages\\swipe-cell\\index.json",
             "G:\\vantui-baiapp-master\\example\\common\\page.js",
-            "G:\\vantui-baiapp-master\\example\\pages\\radio\\index.json"
+            "G:\\vantui-baiapp-master\\example\\pages\\radio\\index.json",
+            "G:\\vantui-baiapp-master\\example\\app.json"
         ],
         "recentlyFiles": [
+            "G:\\vantui-baiapp-master\\example\\app.json",
             "G:\\vantui-baiapp-master\\example\\pages\\radio\\index.json",
             "G:\\vantui-baiapp-master\\example\\pages\\radio\\index.swan",
             "G:\\vantui-baiapp-master\\example\\pages\\radio\\index.js",
@@ -35,8 +34,7 @@
             "G:\\vantui-baiapp-master\\example\\common\\page.js",
             "G:\\vantui-baiapp-master\\example\\pages\\swipe-cell\\index.json",
             "G:\\vantui-baiapp-master\\example\\typings\\swan.d.ts",
-            "G:\\vantui-baiapp-master\\example\\dist\\common\\color.js",
-            "G:\\vantui-baiapp-master\\example\\dist\\steps\\index.swan"
+            "G:\\vantui-baiapp-master\\example\\dist\\common\\color.js"
         ]
     }
 }

@@ -1,9 +1,8 @@
 {
   "pages": [
-  "pages/dashboard/index",
-  "pages/button/index",
-  "pages/steps/index",
-    
+    "pages/dashboard/index",
+    "pages/button/index",
+    "pages/steps/index",
     "pages/action-sheet/index",
     "pages/badge/index",
     "pages/card/index",
