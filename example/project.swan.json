@@ -2,23 +2,18 @@
     "appid": "19090142",
     "compilation-args": {
         "common": {
-            "babelSetting": {
-                "ignore": []
-            },
             "enhance": true
-        },
-        "options": [],
-        "selected": -2
+        }
     },
     "host": "baiduboxapp",
-    "projectname": "revise-vant-demo",
+    "projectname": "改动版手百vant示例",
     "setting": {
         "urlCheck": false
     },
     "swan": {
         "baiduboxapp": {
-            "swanJsVersion": "3.150.255-rc",
-            "extensionJsVersion": "1.10.4"
+            "extensionJsVersion": "1.12.4",
+            "swanJsVersion": "3.170.14"
         }
     }
 }

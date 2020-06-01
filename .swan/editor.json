@@ -1,16 +1,20 @@
 {
     "editor": {
-        "curPath": "G:\\vantui-baiapp-master\\pages\\index\\index.swan",
+        "curPath": "G:\\vantui-baiapp-master\\docs\\markdown\\changelog.md",
         "expands": [
+            "G:\\vantui-baiapp-master\\docs\\markdown",
+            "G:\\vantui-baiapp-master\\packages\\_filter",
             "G:\\vantui-baiapp-master\\pages\\index"
         ],
         "markdownUploadTimeMap": {},
         "paths": [
             "G:\\vantui-baiapp-master\\baiapp.gif",
             "G:\\vantui-baiapp-master\\example\\app.js",
-            "G:\\vantui-baiapp-master\\pages\\index\\index.swan"
+            "G:\\vantui-baiapp-master\\pages\\index\\index.swan",
+            "G:\\vantui-baiapp-master\\docs\\markdown\\changelog.md"
         ],
         "recentlyFiles": [
+            "G:\\vantui-baiapp-master\\docs\\markdown\\changelog.md",
             "G:\\vantui-baiapp-master\\pages\\index\\index.swan",
             "G:\\vantui-baiapp-master\\pages\\index\\index.json",
             "G:\\vantui-baiapp-master\\pages\\index\\index.js",

@@ -1,10 +1,9 @@
 {
-  "pages": [
-    "pages/dashboard/index",
-    "pages/button/index",
-    "pages/steps/index",
+    "pages": [
+       "pages/dashboard/index",
     "pages/action-sheet/index",
     "pages/badge/index",
+    "pages/button/index",
     "pages/card/index",
     "pages/cell/index",
     "pages/col/index",
@@ -19,6 +18,7 @@
     "pages/popup/index",
     "pages/progress/index",
     "pages/stepper/index",
+    "pages/steps/index",
     "pages/switch/index",
     "pages/switch-cell/index",
     "pages/search/index",
@@ -39,15 +39,11 @@
     "pages/rate/index",
     "pages/collapse/index",
     "pages/picker/index"
-  ],
-  "window": {
-    "navigationBarBackgroundColor": "#f8f8f8",
-    "navigationBarTitleText": "Vant Weapp",
-    "navigationBarTextStyle": "black",
-    "backgroundTextStyle": "dark",
-    "backgroundColor": "#f8f8f8"
-  },
-  "usingComponents": {
-  },
-  "sitemapLocation": "sitemap.json"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "智能小程序",
+        "backgroundTextStyle": "light"
+    }
 }
